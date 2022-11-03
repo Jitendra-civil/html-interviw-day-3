@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            background-color: aqua;
+            
+        }
+        span{
+            background-color: blue;
+        }
+        p {
+            font-style: italic;
+            color: darkviolet;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Insertion of image</h3>
+    <span>Absolute path</span><br>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.GElLijIT_7dmUFcinTkR5QHaEo&pid=Api&P=0" alt="" width="100px" height="100px"><br><br>
+    <span>Relative path</span><br>
+    <img src="./person-stressed-.jpg" width="100px" height="100px"><br>
+    <h3>Form</h3>
+    <form action="">
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" value="" id="fname" placeholder="enter your name" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" value="" id="age" placeholder="enter your age" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" value="" id="email"  placeholder="enter your email" required><br><br>
+        <label for="contact">contact:</label>
+        <input type="tel" name="contact" value="" placeholder="enter your contact" required>
+        <input type="submit" name="submit"  value="submit" id="submit"required>
+    </form>
+    <h3>Table</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+        </tr>
+        <tr>
+            <td>rahul</td>
+            <td>star</td>
+            <td>cricketer</td>
+        </tr>
+        <tr>
+            <td>kohli</td>
+            <td>star</td>
+            <td>cricketer</td>
+        </tr>
+    </table>
+    <h3> Radio button</h3>
+   <span><label for="course">Course</label></span><br>
+    <input type="radio" Name="course" value="MERN" required>
+    <label for="MERN">MERN</label><br>
+    <input type="radio" name="course" value="MEAN" required
+    <label for="MEAN">MEAN</label><br>
+    <span><label for="technology">Technology</label></span><br>
+    <input type="checkbox" name="technology" value="HTML" required>
+    <label for="HTMl">HTML</label><br>
+    <input type="checkbox" name="technology" value="CSS" required>
+    <label for="CSS">CSS</label><br>
+    <input type="checkbox" name="technology" value="REACT" required>
+    <label for="REACT">REACT</label><br>
+    <input type="checkbox" name="technology" value="NODE" required>
+    <label for="NODE">NODE</label><br>
+   <p>The difference between radio and checkbox is that we can select multiple option in checkbox<br>
+    whereas in radio button we can select only one option.</p> 
+
+</body>
+</html>
